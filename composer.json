@@ -1,0 +1,21 @@
+{
+    "name": "rabiul/wp-hrm",
+    "description": "A HRM form WordPress.",
+    "authors": [
+        {
+            "name": "MD. Rabiul Islam Robi",
+            "email": "robizmailbox@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WPHRM\\Admin\\": "admin/",
+            "WPHRM\\Frontend\\": "frontend/",
+            "WPHRM\\Includes\\": "includes/",
+            "WPHRM\\Api\\": "api/"
+        }
+    },
+    "require-dev": {
+    }
+}
